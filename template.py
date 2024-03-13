@@ -8,20 +8,21 @@ project_name = "chicken-disease-classification"
 
 list_of_files = [
     ".github/workflows/.gitkeep",
-    f"src/{project_name}/__init__.py",
-    f"src/{project_name}/components/__init__.py",
-    f"src/{project_name}/utils/__init__.py",
-    f"src/{project_name}/config/__init__.py",
-    f"src/{project_name}/config/configuration.py",
-    f"src/{project_name}/pipeline/__init__.py",
-    f"src/{project_name}/entity/__init__.py",
-    f"src/{project_name}/constants/__init__.py",
+    f"src/__init__.py",
+    f"src/components/__init__.py",
+    f"src/utils/__init__.py",
+    f"src/config/__init__.py",
+    f"src/config/configuration.py",
+    f"src/pipeline/__init__.py",
+    f"src/entity/__init__.py",
+    f"src/constants/__init__.py",
     "config/config.yaml",
     "dvc.yaml",
     "params.yaml",
     "requirements.txt",
     "setup.py",
     "research/trails.ipynb",
+    "templates/index.html",
 ]
 
 for filepath in list_of_files:
