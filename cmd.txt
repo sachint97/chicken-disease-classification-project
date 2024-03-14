@@ -1,0 +1,3 @@
+dvc init  -- for initialization
+dvc repro -- to run the pipeline
+dvc dag --- to view pipeline relationship
